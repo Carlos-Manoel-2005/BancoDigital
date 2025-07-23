@@ -1,0 +1,56 @@
+# Arquivo .gitignore otimizado para projetos Java
+
+# ---------------------------
+# Arquivos compilados do Java
+# ---------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ---------------------------
+# Pastas de Build (Maven, Gradle, etc.)
+# ---------------------------
+target/
+build/
+out/
+.gradle/
+
+# ---------------------------
+# Arquivos e pastas de IDEs
+# ---------------------------
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ---------------------------
+# Logs e Arquivos Temporários
+# ---------------------------
+*.log
+logs/
+*.tmp
+hs_err_pid*
+replay_pid*
+
+# ---------------------------
+# Dados Sensíveis - NUNCA ENVIE PARA O GIT!
+# ---------------------------
+.env
+*.env
