@@ -80,6 +80,9 @@ public abstract class Conta implements IConta {
     public Double getSaldo() {
         return saldo;
     }
+    public Cliente getCliente() {
+        return cliente;
+    }
 
     protected void imprimirInfoComum(){
         System.out.println(String.format("Titular: %s", this.cliente.getName()));
