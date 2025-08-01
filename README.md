@@ -1,14 +1,7 @@
-Você tem toda a razão, peço desculpas. Deixei uma tag `<div>` no final do arquivo. Um bom olho para os detalhes\!
-
-Vou corrigir agora, removendo essa última tag e também substituindo o `<strong>` por `**` para deixar o arquivo 100% em Markdown padrão.
-
-Aqui está o código final e totalmente corrigido, pronto para copiar:
-
-````markdown
 # Banco Digital
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Status](https://img.shields.io/badge/status-concluído-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
 Um projeto de console que simula as operações básicas de um banco digital, desenvolvido em Java com foco em boas práticas de Orientação a Objetos.
@@ -105,18 +98,19 @@ classDiagram
 
     Conta ..> SaldoInsuficienteException : throws
     Conta ..> ValorInvalidoException : throws
-````
 
-\</details\>
+    </details>
 
------
+   ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-  * **[Java](https://www.java.com/)**: Linguagem principal do projeto.
-  * **[Mermaid](https://mermaid.js.org/)**: Ferramenta para a criação do diagrama UML.
+* **[Java](https://www.java.com/)**: Linguagem principal do projeto.
+* **[Mermaid](https://mermaid.js.org/)**: Ferramenta para a criação do diagrama UML.
 
------
+---
+
+---
 
 ## 🚀 Como Executar o Projeto
 
@@ -124,18 +118,18 @@ Para executar este projeto localmente, siga os passos abaixo.
 
 ### Pré-requisitos
 
-  * É necessário ter o **JDK (Java Development Kit)**, versão 17 ou superior, instalado em sua máquina.
-  * Um editor de código ou IDE de sua preferência (Ex: VS Code, IntelliJ IDEA, Eclipse).
+* É necessário ter o **JDK (Java Development Kit)**, versão 17 ou superior, instalado em sua máquina.
+* Um editor de código ou IDE de sua preferência (Ex: VS Code, IntelliJ IDEA, Eclipse).
 
 ### Instalação e Execução
 
-1.  Clone o repositório (substitua `seu-usuario` pelo seu nome de usuário do GitHub):
+1.  Clone o repositório:
     ```sh
-    git clone [https://github.com/seu-usuario/banco-digital-java.git](https://github.com/seu-usuario/banco-digital-java.git)
+    git clone [https://github.com/Carlos-Manoel-2005/BancoDigital.git](https://github.com/Carlos-Manoel-2005/BancoDigital.git)
     ```
 2.  Navegue até o diretório do projeto:
     ```sh
-    cd banco-digital-java
+    cd BancoDigital
     ```
 3.  Compile os arquivos `.java`. Supondo que seus arquivos estejam na pasta `src`, o seguinte comando irá compilar e colocar os `.class` na pasta `bin`:
     ```sh
@@ -146,7 +140,10 @@ Para executar este projeto localmente, siga os passos abaixo.
     java -cp bin application.App
     ```
 
------
+---
+
+---
+
 
 ## 🕹️ Como Usar
 
@@ -166,15 +163,12 @@ Ao iniciar o programa, um menu principal será exibido:
 1.  **Para criar uma conta**, escolha a opção `1`, informe o nome do titular e selecione o tipo de conta (Corrente ou Poupança).
 2.  **Para operar uma conta**, escolha a opção `2`, selecione a conta desejada na lista e utilize o menu de operações para depositar, sacar, transferir ou ver o extrato.
 
------
+---
+
+---
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
------
-
-Feito com ❤️ por **[Carlos Manoel]**
-
-```
-```
+---
