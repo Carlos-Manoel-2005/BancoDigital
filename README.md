@@ -98,19 +98,16 @@ classDiagram
 
     Conta ..> SaldoInsuficienteException : throws
     Conta ..> ValorInvalidoException : throws
-
+```
     </details>
 
-   ---
+
 
 ## 🛠️ Tecnologias Utilizadas
 
 * **[Java](https://www.java.com/)**: Linguagem principal do projeto.
 * **[Mermaid](https://mermaid.js.org/)**: Ferramenta para a criação do diagrama UML.
 
----
-
----
 
 ## 🚀 Como Executar o Projeto
 
@@ -140,11 +137,6 @@ Para executar este projeto localmente, siga os passos abaixo.
     java -cp bin application.App
     ```
 
----
-
----
-
-
 ## 🕹️ Como Usar
 
 Ao iniciar o programa, um menu principal será exibido:
@@ -163,12 +155,8 @@ Ao iniciar o programa, um menu principal será exibido:
 1.  **Para criar uma conta**, escolha a opção `1`, informe o nome do titular e selecione o tipo de conta (Corrente ou Poupança).
 2.  **Para operar uma conta**, escolha a opção `2`, selecione a conta desejada na lista e utilize o menu de operações para depositar, sacar, transferir ou ver o extrato.
 
----
-
----
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
----
+
