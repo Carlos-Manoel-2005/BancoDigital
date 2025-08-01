@@ -1,21 +1,9 @@
-
-
-````markdown
 # Banco Digital
-
-<div align="center">
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Status](https://img.shields.io/badge/status-concluído-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
-</div>
-
-<p align="center">
-  Um projeto de console que simula as operações básicas de um banco digital, desenvolvido em Java com foco em boas práticas de Orientação a Objetos.
-</p>
-
-<br>
 
 ## 📖 Sobre o Projeto
 
@@ -38,9 +26,6 @@ O projeto se destaca pela sua estrutura organizada, separação de responsabilid
 ## 🏛️ Diagrama UML do Sistema
 
 O diagrama abaixo ilustra a arquitetura do projeto, mostrando as relações de herança, implementação e associação entre as classes e interfaces.
-
-<details>
-<summary><strong>Clique para expandir o Diagrama de Classes (UML)</strong></summary>
 
 ```mermaid
 classDiagram
@@ -107,18 +92,20 @@ classDiagram
 
     Conta ..> SaldoInsuficienteException : throws
     Conta ..> ValorInvalidoException : throws
-````
+   
+   ---
 
-\</details\>
+   ## 🛠️ Tecnologias Utilizadas
 
------
+   * **[Java](https://www.java.com/)**: Linguagem principal do projeto.
+   * **[Mermaid](https://mermaid.js.org/)**: Ferramenta para a criação do diagrama UML.
 
-## 🛠️ Tecnologias Utilizadas
+   ---
 
-  * **[Java](https://www.java.com/)**: Linguagem principal do projeto.
-  * **[Mermaid](https://mermaid.js.org/)**: Ferramenta para a criação do diagrama UML.
+Com certeza. Seguindo o mesmo padrão, aqui estão os códigos Markdown para as seções "Como Executar o Projeto", "Como Usar" e "Licença", com os ícones.
 
------
+````markdown
+---
 
 ## 🚀 Como Executar o Projeto
 
@@ -126,8 +113,8 @@ Para executar este projeto localmente, siga os passos abaixo.
 
 ### Pré-requisitos
 
-  * É necessário ter o **JDK (Java Development Kit)**, versão 17 ou superior, instalado em sua máquina.
-  * Um editor de código ou IDE de sua preferência (Ex: VS Code, IntelliJ IDEA, Eclipse).
+* É necessário ter o **JDK (Java Development Kit)**, versão 17 ou superior, instalado em sua máquina.
+* Um editor de código ou IDE de sua preferência (Ex: VS Code, IntelliJ IDEA, Eclipse).
 
 ### Instalação e Execução
 
@@ -148,37 +135,33 @@ Para executar este projeto localmente, siga os passos abaixo.
     java -cp bin application.App
     ```
 
------
+---
 
 ## 🕹️ Como Usar
 
 Ao iniciar o programa, um menu principal será exibido:
 
-```
-+===================================+
+````
+
+\+===================================+
 |           BANCO DIGITAL           |
-+===================================+
+\+===================================+
 | 1. Criar Nova Conta               |
 | 2. Acessar Conta Existente        |
 |                                   |
 | 0. Sair do Sistema                |
-+===================================+
+\+===================================+
+
 ```
 
 1.  **Para criar uma conta**, escolha a opção `1`, informe o nome do titular e selecione o tipo de conta (Corrente ou Poupança).
 2.  **Para operar uma conta**, escolha a opção `2`, selecione a conta desejada na lista e utilize o menu de operações para depositar, sacar, transferir ou ver o extrato.
 
------
+---
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
------
-
-\<div align="center"\>
-Feito por \<strong\>Carlos Manoel Alves Bonfim\</strong\>
-\</div\>
-
-```
+---
 ```
